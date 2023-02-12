@@ -1,14 +1,12 @@
 author 'Dylanpf06'
 description 'FXServer logs to Discord (https://www.jokedevil.com/)'
 
-url 'https://jokedevil.com'
-
 -- Config
 server_script 'config.lua'
 client_script 'config.lua'
 
 -- Server Scripts
-server_script 'server/server.lua'
+server_script 'server.lua'
 -- server_script 'versioncheck.lua'
 
 --Client Scripts
